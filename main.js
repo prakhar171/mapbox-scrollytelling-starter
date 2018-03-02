@@ -1,6 +1,12 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoicHJha3kxNyIsImEiOiJjamR5aXF4Ynoyb2h6MzNwZG42MXVmM2RiIn0.qHCk65r0zyFJ8Wp-0ScJGw';
 
 var chapters = {
+    'part-0': {
+        center: [82.867685, 22.887557],
+        zoom: 4.05,
+        bearing: 0,
+        pitch: 0,
+    },
     'part-1': {
         center: [77.484808, 34.173924],
         zoom: 6.17,
@@ -30,13 +36,7 @@ var chapters = {
         zoom: 7.11,
         bearing: 0,
         pitch: 0,
-    },  
-    'part-6': {
-        center: [82.867685, 22.887557],
-        zoom: 4.05,
-        bearing: 0,
-        pitch: 0,
-    }
+    },
 };
 
 var map;
@@ -44,8 +44,8 @@ var map;
 window.onload = function() {
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/praky17/cjdzvlgi41t4t2rlyyndafhgu',
-        center: [82.8, 23.88],
+        style: 'mapbox://styles/praky17/cje9w5tfujjjs2st9cr4rdi6x',
+        center: [82.867685, 22.887557],
         zoom: 4,
         bearing: 0,
         pitch: 0,
@@ -65,7 +65,7 @@ window.onscroll = function() {
     }
 };
 
-var activeChapterName = 'part-6';
+var activeChapterName = 'part-0';
 function setActiveChapter(chapterName) {
     if (chapterName === activeChapterName) return;
 
