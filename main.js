@@ -2,8 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicHJha3kxNyIsImEiOiJjamR5aXF4Ynoyb2h6MzNwZG42M
 
 var chapters = {
     'part-0': {
-        center: [82.867685, 22.887557],
-        zoom: 4.05,
+        center: [88.634,21.553],
+        zoom: 3.65,
         bearing: 0,
         pitch: 0,
     },
@@ -23,7 +23,7 @@ var chapters = {
         center: [74.612038, 22.111168],
         zoom: 6.16,
         bearing: 0,         //0-180
-        pitch: 52,          //0-60
+        pitch: 0,          //0-60
     },
     'part-4': {
         center: [82.172627, 18.477831],
@@ -44,9 +44,9 @@ var map;
 window.onload = function() {
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/praky17/cje9w5tfujjjs2st9cr4rdi6x',
-        center: [82.867685, 22.887557],
-        zoom: 4,
+        style: 'mapbox://styles/praky17/cjed0zu7551np2rp2rnrqe7o0',
+        center: [88.634,21.553],
+        zoom: 3.65,
         bearing: 0,
         pitch: 0,
     });
