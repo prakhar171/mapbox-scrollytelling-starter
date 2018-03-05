@@ -7,33 +7,27 @@ var chapters = {
         bearing: 0,
         pitch: 0,
     },
-    'part-2': {
+    'part-1': {
         center: [77.497216, 13.053418],
         zoom: 6.25,
         bearing: 0,
         pitch: 0,
     },
-    'part-3': {
+    'part-2': {
         center: [74.612038, 22.111168],
         zoom: 6.16,
         bearing: 0,         //0-180
         pitch: 0,          //0-60
     },
-    'part-4': {
+    'part-3': {
         center: [82.172627, 18.477831],
         zoom: 7.84,
         bearing: 0,
         pitch: 0,
     },
-    'part-5': {
+    'part-4': {
         center: [93.517944, 24.171225],
         zoom: 7.11,
-        bearing: 0,
-        pitch: 0,
-    },
-    'part-11': {
-        center: [76.6504, 35.57],
-        zoom: 8.17,
         bearing: 0,
         pitch: 0,
     },
