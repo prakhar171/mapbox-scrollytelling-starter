@@ -32,6 +32,12 @@ var chapters = {
         bearing: 0,
         pitch: 80,
     },
+    'part-5': {
+        center: [77.05, 10.16],
+        zoom: 13.1,
+        bearing: 100,
+        pitch: 34,
+    },
 };
 
 var map;
