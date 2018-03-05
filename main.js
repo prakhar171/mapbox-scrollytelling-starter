@@ -7,13 +7,6 @@ var chapters = {
         bearing: 0,
         pitch: 0,
     },
-    'part-11': {
-        center: [76.6504, 35.57],
-        zoom: 8.17,
-        bearing: 0,
-        pitch: 0,
-    },
-
     'part-2': {
         center: [77.497216, 13.053418],
         zoom: 6.25,
@@ -35,6 +28,12 @@ var chapters = {
     'part-5': {
         center: [93.517944, 24.171225],
         zoom: 7.11,
+        bearing: 0,
+        pitch: 0,
+    },
+    'part-11': {
+        center: [76.6504, 35.57],
+        zoom: 8.17,
         bearing: 0,
         pitch: 0,
     },
